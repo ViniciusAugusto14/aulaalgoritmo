@@ -16,5 +16,6 @@ limpatela
 habil <- idade > 18
 //saida
 escreval("--------------------------------------")
-escreval("ele pode ser motorista com essa idade?",habil)
+escreval("ele pode dirigir com essa idade?",habil)
+escreval("--------------------------------------")
 fimalgoritmo
