@@ -12,7 +12,7 @@ leia(altura)
 escreval("Qual é sua idade?")
 leia(idade)
 //processamento
-se (altura>1.75) e (idade>18)entao
+se (altura>=1.75) e (idade>=18)entao
 escreval("Ele podera competir")
 senao
 escreval("Ele nao podera competir")
