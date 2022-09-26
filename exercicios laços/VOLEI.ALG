@@ -4,26 +4,17 @@ Algoritmo "volei"
 // Autor(a)    : Vinicius Silva Augusto
 // Data atual  : 20/09/2022
 Var
-cont: inteiro
-alt1,alt2,alt3,alt4,alt5,alt6,med: real
-
+cont,i: inteiro
+media,alt,soma:real
 
 Inicio
+para i<-1 ate 6 faca
 escreval("Informe a altura!")
-leia(alt1)
-escreval("Informe a altura!")
-leia(alt2)
-escreval("Informe a altura!")
-leia(alt3)
-escreval("Informe a altura!")
-leia(alt4)
-escreval("Informe a altura!")
-leia(alt5)
-escreval("Informe a altura!")
-leia(alt6)
-
-med <- (alt1+alt2+alt3+alt4+alt5+alt6)/6
-
-escreval("A média de altura do time, é de:", med)
+leia(alt)
+soma<-soma+alt
+cont<- cont+1
+fimpara
+media<-soma/6
+escreval("a media das seis jogadoras sera de:",media)
 
 Fimalgoritmo
